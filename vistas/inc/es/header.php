@@ -5,7 +5,7 @@
   <meta http-equiv="Pragma" content="no-cache">
     <div class="header-brand full-box">
         <a href="<?php echo SERVERURL; ?>index/">
-            <img src="<?php echo SERVERURL; ?>vistas/assets/img/95579652_120513296306298_8511538261888335872_n.jpg" alt="<?php echo COMPANY; ?>" class="img-fluid">
+         
         </a>
     </div>
 
