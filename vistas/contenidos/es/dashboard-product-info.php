@@ -115,7 +115,41 @@
                 </div>
             </div>
         </fieldset>
-       
+        <fieldset class="mb-4">
+            <legend><i class="fas fa-parachute-box"></i> &nbsp; Tipo, Presentación, Categoría & Estado</legend>
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-12 col-md-6">
+                        <div class="form-outline mb-4">
+                            <input type="text" class="form-control" value="<?php echo $campos['producto_tipo']; ?>" id="producto_tipo" readonly >
+                            <label for="producto_tipo" class="form-label">Tipo de producto</label>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-6">
+                        <div class="form-outline mb-4">
+                            <input type="text" class="form-control" value="<?php echo $campos['producto_presentacion']; ?>" id="producto_presentacion" readonly >
+                            <label for="producto_presentacion" class="form-label">Presentación de producto</label>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-6">
+                        <div class="form-outline mb-4">
+                            <?php
+                                $nombre_categoria=$ins_login->datos_tabla("Unico","categoria","categoria_id",$ins_login->encryption($campos['categoria_id']));
+                                $nombre_categoria=$nombre_categoria->fetch();
+                            ?>
+                            <input type="text" class="form-control" value="<?php echo $nombre_categoria['categoria_nombre']; ?>" id="producto_categoria" readonly >
+                            <label for="producto_categoria" class="form-label">Categoría de producto</label>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-6">
+                        <div class="form-outline mb-4">
+                            <input type="text" class="form-control" value="<?php echo $campos['producto_estado']; ?>" id="producto_estado" readonly >
+                            <label for="producto_estado" class="form-label">Estado de producto</label>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </fieldset>
         <fieldset class="mb-4">
             <legend><i class="far fa-comment-dots"></i> &nbsp; Descripción</legend>
             <div class="container-fluid">

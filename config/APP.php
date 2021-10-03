@@ -3,13 +3,13 @@
 	/*----------  
 	Ruta o dominio del servidor  - Server path or domain
 	----------*/
-		const SERVERURL="http://localhost/RONIN-FASHION/";
+	const SERVERURL="http://localhost/STO/";
 
 
 	/*----------  
 	Nombre de la empresa o compañia -  Company or company name
 	----------*/
-	const COMPANY="Ronin Fashion";
+	const COMPANY="Carlos Alfaro";
 
 
 	/*----------  Idioma - Language
@@ -34,15 +34,15 @@
 
 
 	/*----------  Redes sociales - Social networks  ----------*/
-	const FACEBOOK="https://www.facebook.com/roninfashion";
-	const INSTAGRAM="https://www.instagram.com/_roninfashion_/?hl=es";
-	const YOUTUBE="";
+	const FACEBOOK="https://www.facebook.com/CarlosAlfaroES/";
+	const INSTAGRAM="";
+	const YOUTUBE="https://www.youtube.com/c/CarlosAlfaro007";
 	const TWITTER="";
 
 
 	/*----------  Direccion - Address  ----------*/
-	const COUNTRY="";
-	const ADDRESS="Bogotá C.C Mundo del Oro";
+	const COUNTRY="El Salvador";
+	const ADDRESS="San Salvador, El Salvador, Centro América";
 	
 
 	/*----------  Configuración de moneda - Currency Settings  ----------*/
@@ -91,4 +91,12 @@
 	const THERMAL_PRINT_SIZE="80";
 
 
+	/*----------  Zona horaria - Time zone  ----------*/
+	date_default_timezone_set("America/El_Salvador");
 
+	/*
+		Configuración de zona horaria de tu país, para más información visita - Time zone configuration of your country, for more information visit
+		
+		http://php.net/manual/es/function.date-default-timezone-set.php
+		http://php.net/manual/es/timezones.php
+	*/

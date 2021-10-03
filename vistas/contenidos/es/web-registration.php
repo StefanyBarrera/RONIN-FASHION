@@ -107,7 +107,33 @@
                     </div>
                 </fieldset>
 
-              
+                <fieldset class="mb-4">
+                    <legend><i class="fas fa-user-circle"></i> &nbsp; Avatar</legend>
+                    <div class="container-fluid">
+                        <div class="row">
+                            <?php 
+                                $directorio_avatar=opendir("./vistas/assets/avatar/");
+                                $check="checked";
+                                $c=1;
+                                while($avatar=readdir($directorio_avatar)){
+                                    if(is_file("./vistas/assets/avatar/".$avatar)){
+                                        echo '
+                                            <div class="col-6 col-md-4 col-lg-3">
+                                                <div class="form-check radio-avatar-form">
+                                                    <input type="radio" class="form-check-input" name="cliente_avatar_reg" id="radio_avatar_'.$c.'" value="'.$avatar.'" '.$check.' >
+                                                    <label class="form-check-label" for="radio_avatar_'.$c.'" ><img src="'.SERVERURL.'vistas/assets/avatar/'.$avatar.'" alt="'.$avatar.'" class="img-fluid radio-avatar-img"></label>
+                                                </div>
+                                            </div>
+                                        ';
+                                        $check="";
+                                        $c++;
+                                    }
+                                } 
+                            ?>
+                        </div>
+                    </div>
+                </fieldset>
+
                 <p class="text-center" style="margin-top: 40px;">
                     <button type="submit" class="btn btn-primary"><i class="far fa-paper-plane"></i> &nbsp; CREAR CUENTA</button>
                 </p>

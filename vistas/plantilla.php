@@ -1,4 +1,11 @@
+<!--
+	Copyright: Carlos Alfaro
 
+	++ Redes Sociales ++
+	YouTube: https://www.youtube.com/c/CarlosAlfaro007
+	Facebook: https://www.facebook.com/CarlosAlfaroES/
+	Email: carlosalfaro.info@gmail.com
+-->
 <?php
     /*---------- Iniciando sesion ----------*/
     include "./vistas/inc/session_start.php";

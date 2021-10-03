@@ -92,7 +92,7 @@
             require_once "./controladores/productoControlador.php";
             $ins_producto = new productoControlador();
 
-            
+            echo $ins_producto->cliente_paginador_producto_controlador($pagina[3],10,$pagina[0],$pagina[2],$pagina[1],$_SESSION['busqueda_tienda']);
         ?>
     </div>
 </div>

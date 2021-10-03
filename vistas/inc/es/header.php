@@ -1,11 +1,7 @@
 <header class="header full-box bg-white">
-<meta http-equiv="Expires" content="0">
-  <meta http-equiv="Last-Modified" content="0">
-  <meta http-equiv="Cache-Control" content="no-cache, mustrevalidate">
-  <meta http-equiv="Pragma" content="no-cache">
     <div class="header-brand full-box">
         <a href="<?php echo SERVERURL; ?>index/">
-         
+            <img src="<?php echo SERVERURL; ?>vistas/assets/img/logo.png" alt="<?php echo COMPANY; ?>" class="img-fluid">
         </a>
     </div>
 
@@ -29,7 +25,10 @@
                 <?php } ?>
             </ul>
         </nav>
-     
+        <a href="<?php echo SERVERURL; ?>bag/" class="header-button full-box text-center" title="Carrito" >
+            <i class="fas fa-shopping-bag"></i>
+            <span class="badge bg-primary rounded-pill bag-count" >2</span>
+        </a>
 
         <?php if(isset($_SESSION['cargo_sto']) && ($_SESSION['cargo_sto']=="Administrador" || $_SESSION['cargo_sto']=="Cajero")){ ?>
             <div class="header-button full-box text-center" id="userMenu" data-mdb-toggle="dropdown" aria-haspopup="true" aria-expanded="false" title="<?php echo $_SESSION['usuario_sto']; ?>" >
