@@ -13,7 +13,7 @@
                     <h5 class="poppins-regular font-weight-bold full-box text-center">Nombre del producto</h5>
                     <div class="bag-item full-box">
                         <figure class="full-box">
-                            <img src="<?php echo SERVERURL; ?>vistas/assets/product/cover/default.jpg" class="img-fluid" alt="producto_nombre">
+                            <img src="<?php echo SERVERURL; ?>vistas/assets/product/cover/L4W6H1S7R2-14.jpg" class="img-fluid" alt="producto_nombre">
                         </figure>
                         <div class="full-box">
                             <div class="container-fluid">
@@ -32,7 +32,7 @@
                                         </div>
                                     </div>
                                     <div class="col-12 col-lg-4 text-center mb-4">
-                                        <span class="poppins-regular font-weight-bold" >SUBTOTAL: $5.00</span>
+                                        <span class="poppins-regular font-weight-bold" >SUBTOTAL: $50.000</span>
                                     </div>
                                     <div class="col-12 col-lg-2 text-center text-lg-end mb-4">
                                         <button type="button" class="btn btn-danger" data-mdb-toggle="tooltip" data-mdb-placement="bottom" title="Quitar del carrito" >
@@ -51,7 +51,7 @@
                     <h5 class="poppins-regular font-weight-bold full-box text-center">Nombre del producto</h5>
                     <div class="bag-item full-box">
                         <figure class="full-box">
-                            <img src="<?php echo SERVERURL; ?>vistas/assets/product/cover/default.jpg" class="img-fluid" alt="producto_nombre">
+                            <img src="<?php echo SERVERURL; ?>vistas/assets/product/cover/J9J4N7R9P8-3.jpg" class="img-fluid" alt="producto_nombre">
                         </figure>
                         <div class="full-box">
                             <div class="container-fluid">
@@ -70,7 +70,7 @@
                                         </div>
                                     </div>
                                     <div class="col-12 col-lg-4 text-center mb-4">
-                                        <span class="poppins-regular font-weight-bold" >SUBTOTAL: $5.00</span>
+                                        <span class="poppins-regular font-weight-bold" >SUBTOTAL: $45.000</span>
                                     </div>
                                     <div class="col-12 col-lg-2 text-center text-lg-end mb-4">
                                         <button type="button" class="btn btn-danger" data-mdb-toggle="tooltip" data-mdb-placement="bottom" title="Quitar del carrito" >
@@ -97,20 +97,23 @@
                     <ul class="list-group bag-details">
                         <a class="list-group-item d-flex justify-content-between align-items-center text-uppercase poppins-regular font-weight-bold">
                             Subtotal
-                            <span>$10.00</span>
+                            <span>$50.000</span>
                         </a>
                         <a class="list-group-item d-flex justify-content-between align-items-center text-uppercase poppins-regular font-weight-bold">
                             Envio
-                            <span>$10.00</span>
+                            <span>$45.000</span>
                         </a>
                         <a class="list-group-item d-flex justify-content-between align-items-center" style="border-bottom: 1px solid #E1E1E1;"></a>
                         <a class="list-group-item d-flex justify-content-between align-items-center text-uppercase poppins-regular font-weight-bold">
                             Total
-                            <span>$20.00</span>
+                            <span>$95.000</span>
                         </a>
                     </ul>
                     <p class="text-center">
-                        <button type="button" class="btn btn-primary">Confirmar pedido</button>
+                 
+                        <button onclick="alert('pedido confirmado');" class="btn btn-primary">Confirmar pedido</button>
+
+
                     </p>
                 </div>
             </div>

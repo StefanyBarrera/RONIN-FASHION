@@ -108,7 +108,7 @@
                 </fieldset>
 
                 <fieldset class="mb-4">
-                    <legend><i class="fas fa-user-circle"></i> &nbsp; Avatar</legend>
+                    <legend><i class="fas fa-user-circle"></i> &nbsp; Esquema usuario</legend>
                     <div class="container-fluid">
                         <div class="row">
                             <?php 

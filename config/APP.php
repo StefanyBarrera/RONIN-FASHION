@@ -3,13 +3,13 @@
 	/*----------  
 	Ruta o dominio del servidor  - Server path or domain
 	----------*/
-	const SERVERURL="http://localhost/STO/";
+	const SERVERURL="https://ed1b-201-228-248-120.ngrok.io/RONIN-FASHION/";
 
 
 	/*----------  
 	Nombre de la empresa o compañia -  Company or company name
 	----------*/
-	const COMPANY="Carlos Alfaro";
+	const COMPANY="Ronin Fashion";
 
 
 	/*----------  Idioma - Language
@@ -30,19 +30,19 @@
 	/*----------  
 	Nombre de la sesion -  Session name
 	----------*/
-	const SESSION_NAME="STO";
+	const SESSION_NAME="RONIN-FASHION";
 
 
 	/*----------  Redes sociales - Social networks  ----------*/
-	const FACEBOOK="https://www.facebook.com/CarlosAlfaroES/";
-	const INSTAGRAM="";
-	const YOUTUBE="https://www.youtube.com/c/CarlosAlfaro007";
+	const FACEBOOK="https://www.facebook.com/roninfashion";
+	const INSTAGRAM="https://www.instagram.com/_roninfashion_/";
+	const YOUTUBE="";
 	const TWITTER="";
 
 
 	/*----------  Direccion - Address  ----------*/
-	const COUNTRY="El Salvador";
-	const ADDRESS="San Salvador, El Salvador, Centro América";
+	const COUNTRY="Colombia";
+	const ADDRESS="Bogotá, Colombia,Centro comercial del oro, calle 9 # 20 a 14 local 133";
 	
 
 	/*----------  Configuración de moneda - Currency Settings  ----------*/
