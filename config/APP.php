@@ -3,7 +3,7 @@
 	/*----------  
 	Ruta o dominio del servidor  - Server path or domain
 	----------*/
-	const SERVERURL="https://ed1b-201-228-248-120.ngrok.io/RONIN-FASHION/";
+	const SERVERURL="https://ronin-fashion-tahsp6hd5-stefanybarrera.vercel.app/";
 
 
 	/*----------  
