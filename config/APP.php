@@ -3,7 +3,7 @@
 	/*----------  
 	Ruta o dominio del servidor  - Server path or domain
 	----------*/
-	const SERVERURL="http://ca72-186-119-197-129.ngrok.io/RONIN-FASHION/";
+	const SERVERURL="https://quiet-basin-25086.herokuapp.com/RONIN-FASHION/";
 
 
 	/*----------  
