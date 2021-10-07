@@ -3,7 +3,7 @@
 	/*----------  
 	Ruta o dominio del servidor  - Server path or domain
 	----------*/
-	const SERVERURL="http://quiet-basin-25086.herokuapp.com";
+	const SERVERURL="https://quiet-basin-25086.herokuapp.com/RONIN-FASHION/";
 
 
 	/*----------  
